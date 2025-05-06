@@ -1,29 +1,29 @@
 return {
 	
-	possibility = {
+	possibilities = {
 		
 		["Common"] = {
-			rarity = 5000,
+			possibility = 5000,
 		};
 		
 		["Rare"] = {
-			rarity = 3000,
+			possibility = 3000,
 		};
-		
+	
 		["Epic"] = {
-			rarity = 1000,
+			possibility = 1000,
 		};
 		
 		["Legendary"] = {
-			rarity = 250,
+			possibility = 250,
 		};
 		
 		["Secret"] = {
-			rarity = 50,
+			possibility = 50,
 		};
 		
 		["???"] = {
-			rarity = 1,
+			possibility = 1,
 		};
 		
 	}

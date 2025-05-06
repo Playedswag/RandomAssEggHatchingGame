@@ -21,10 +21,10 @@ return {
 	
 	Settings = {
 		
-		possibility = {
+		possibilityBlocked = {
 
 			["Common"] = {
-				blocked = false
+				blocked = true
 			};
 
 			["Rare"] = {

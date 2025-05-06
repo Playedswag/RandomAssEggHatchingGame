@@ -20,8 +20,7 @@ local function AddToTable (ResultPet, Pets, player)
 	PetCopy.UniqueID = UID
 
 	table.insert(Pets, PetCopy)
-	
-	print(Pets)
+
 	
 	AssignVPFModule.AddPetVPF(player, ID, UID)
 

@@ -12,7 +12,7 @@ script.Parent.ChildAdded:Connect(function(child)
 		if DeleteButton then
 			DeleteButton.MouseButton1Down:Connect(function ()
 				if not interupted then
-					interupted = true
+					interupted = false
 					local UID = DeleteButton.Parent.UniqueID.Value
 					ConfirmFrame.Visible = true
 
